@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+        h1 {
+       text-align: center;
+    }
+    .button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4F8C9F;
+    }
+	.button:hover {
+    background-color: #4CAF50;
+    color: white;
+    }
+   .Front {
+    position: absolute;
+    left: 620px;
+    top: 170px;
+    } 
+   .Back {
+    position: absolute;
+    left: 620px;
+    top: 280px;
+   } 
+   .Right {
+    position: absolute;
+    left: 720px;
+    top: 225px;
+   }
+   .Left {
+    position: absolute;
+    left: 528px;
+    top: 225px;
+   }
+   .Stop {Background-color: #B95A5A;
+    position: absolute;
+    left: 620px;
+    top: 350px;
+   } 
+   </style>
+	</head>
+	<body>
+		<h1>movement direction control</h1>
+		<form method = "POST" action="Insert.php">
+		<button class="button Front" name="Direction" value="Front">Front</button>
+		<button class="button Back" name="Direction" value="Back">Back</button>
+		<button class="button Right" name="Direction" value="Right">Right</button>
+		<button class="button Left" name="Direction" value="Left">Left</button>
+		<button class="button Stop" name="Direction" value="Stop">Stop</button>
+		</form>
+	</body>
+</html>
